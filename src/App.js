@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './Welcome.js';
+import Bank from './Bank.js';
+import Demo1 from './Demo1.js';
+import UnionBank from './UnionBank.js';
+import Employees from './Employees.js';
+import Score from './Score.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>WELCOME</h1>
+      {/* <Welcome />
+      <Bank />
+      <Demo1 /> */}
+      {/* <Employee /> */}
+      {/* <Employees /> */}
+      <Score />
     </div>
   );
 }
